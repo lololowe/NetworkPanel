@@ -1,13 +1,100 @@
 {
-	"运营商":{
-		"和彩云":"https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png",
-		"天翼云桌面":"https://desk.ctyun.cn:8999/desktop-prod/software/windows_tob_client/15/64/202030001/CtyunClouddeskUniversal_2.3.0_202030001_x86_20240327104015_Setup.exe"
-	},
-	"全球[Global]":{
-		"Cachefly":"https://web1.cachefly.net/speedtest/downloading",
-		"Cloudflare Speed":"https://speed.cloudflare.com/__down?bytes=99614720",
-		"Steam Akamai":"https://cdn.akamai.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif",
-		"Steam Cloudflare":"https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif",
-		"Microsoft Akamai":"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW16Ptm"
+  "默认测速源": {
+	  "和彩云(点击此处可更换测速源)":"https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png",
+    "朝夕光年游戏": "https://lf5-j1gamecdn-cn.dailygn.com/obj/lf-game-lf/gdl_app_2682/1233880772355.mp4"
+  },
+  "腾讯系列": {
+    "腾讯①": "https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg",
+    "腾讯②": "https://ossweb-img.qq.com/upload/webplat/info/cf/20230717/653421385804853.png",
+    "腾讯视频": "https://puui.qpic.cn/vpic_cover/g3346tki83w/g3346tki83w_hz.jpg",
+    "WeGame": "https://wegame.gtimg.com/g.55555-r.c4663/wegame-home/sc02-03.514d7db8.png"
+  },
+  "百度系列": {
+    "百度网盘①": "https://staticsns.cdn.bcebos.com/amis/2024-12/1733110167508/ec2943f8f5e27bd38f00c6e02.png",
+    "百度网盘②": "https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.54.0.103.exe",
+    "百度网盘③": "https://nd-static.bdstatic.com/m-static/wp-brand/img/banner.5783471b.png",
+    "爱奇艺": "https://static-d.iqiyi.com/ext/common/iQIYIMedia_000.dmg",
+    "好看视频": "https://vd3.bdstatic.com/mda-pm9zn07ydwzhfw85/1080p/cae_h264/1702252000350219836/mda-pm9zn07ydwzhfw85.mp4"
+  },
+  "联通系列": {
+    "联通公免①(手机电视)": "https://m1.ad.10010.com/small_video/uploadImg/1598021193891.jpg",
+    "联通云智手机": "https://s3-sh-uphone.wostore.cn/ivr-dev-1/uphone/static/images/wallpaper/HomePage/JGQ001/H5/NoLogin/2-20251029105302322.jpg"
+  },
+  "阿里系列": {
+    "阿里系①": "https://gw.alicdn.com/tfscom/TB1fASCxhjaK1RjSZKzXXXVwXXa.jpg",
+    "阿里系②": "https://img.alicdn.com/imgextra/i1/O1CN01xA4P9S1JsW2WEg0e1_!!6000000001084-2-tps-2880-560.png",
+    "钉钉": "https://gw.alicdn.com/tfs/TB1k07QUoY1gK0jSZFCXXcwqXXa-810-450.png",
+    "夸克网盘": "https://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/442087612070.mp4",
+    "优酷视频": "https://jmy-pic.baidu.com/0/pic/1203225490_216151106_2084668354.jpg"
+  },
+  "字节系列": {
+    "今日头条": "https://lf9-static.bytednsdoc.com/obj/eden-cn/uhbfnupkbps/video/earth_v6.mp4",
+    "字节跳动①": "https://lf1-cdn-tos.bytescm.com/obj/static/ies/bytedance_official/_next/static/images/8-4@2x-f85835b5e482bccf94c824067caac899.png",
+    "字节跳动②": "https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/mainland/video-poster_1576231362701.png"
+  },
+  "电信系列": {
+    "天翼云盘": "https://static.e.189.cn/open/login/page/web/v5.0/static/js/captch.min.js?v1.1",
+    "天翼云桌面①": "https://desk.ctyun.cn:8999/desktop-prod/software/windows_tob_client/15/64/202030001/CtyunClouddeskUniversal_2.3.0_202030001_x86_20240327104015_Setup.exe",
+    "天翼云桌面②": "https://desk.ctyun.cn:8999/desktop-prod/software/windows_tob_client/15/64/202010003/CtyunClouddeskUniversal_2.1.0_202010003_x86_20230905151733_Setup_signed.exe",
+    "天翼云": "https://vod-origin-rjzy.gdoss.xstore.ctyun.cn/8ee30576c30d40518c4dae03f7eacf3c.mp4"
+  },
+  "移动系列": {
+	  "和彩云":"https://img.mcloud.139.com/material_prod/material_media/20221128/1669626861087.png",
+    "移动云盘①": "https://yun.mcloud.139.com/hongseyunpan/2.43G.zip",
+    "移动云盘②": "https://open.yun.139.com/static/img/case_bg_1.16716f8f.png",
+    "咪咕视频①": "https://img.cmvideo.cn/publish/noms/2023/12/06/1O4SHFIFR36BD.gif",
+    "咪咕视频②": "https://img.cmvideo.cn/publish/noms/2022/10/14/1O3VIGPVP6HTS.jpg",
+    "咪咕爱看": "https://img.aikan.miguvideo.com/publish/noms/2024/04/22/1O5MNLF3AN2JL.gif",
+    "咪咕快游①": "https://freeserver.migufun.com/resource/beta/picture/system/20200723/20200723104326220_sdpic.png",
+    "咪咕快游②": "https://freeserver.migufun.com/resource/beta/video/system/20210924112351666.mp4",
+    "移动": "https://img1.shop.10086.cn/goods/tcqtjwurkdsfcxgr_940x7200"
+  },
+  "其他系列": {
+    "快手": "https://alimov2.a.kwimgs.com/upic/2024/11/18/17/BMjAyNDExMTgxNzM0NTFfMjQ2MzY1ODI4MV8xNDg5NTc1NTQwNDBfMl8z_b_Ba0e085802ad867415b13e560bab69dd2.mp4",
+    "京东": "https://img20.360buyimg.com/babel/jfs/t20271006/227634/23/27810/35856/67027beeF0cffb9fc/e68cd03835b91103.png",
+    "微软Azure": "https://cdn.microsoftstore.com.cn/media/product_long_description/3781-00000/2_dupn50xr/4h0yzz2_360.jpg",
+    "vivo": "https://wwwstatic.vivo.com.cn/vivoportal/files/resource/funtouch/1651200648928/images/os2-jude-video.mp4",
+    "网易(阿里CDN)": "https://x19.gdl.netease.com/MCLauncher_publish_1.8.0.35383.exe",
+    "网易公开课(白云山CDN)": "https://mov.bn.netease.com/open-movie/nos/mp4/2015/11/26/SB8ECV1ST_sd.mp4",
+    "网易云游戏": "https://a29.gdl.netease.com/CloudGame_setup_pc_x64_1.5.1.0039.exe",
+    "B站①(阿里CDN)": "https://s1.hdslb.com/bfs/game-static/web/caster/static/script/vue/da3f37d7fd8339357ed671a94941757e/st.zip",
+    "B站②(阿里CDN)": "https://s3.hdslb.com/bfs/game-static/web/caster/static/script/vue/da3f37d7fd8339357ed671a94941757e/st.zip",
+    "小红书": "https://714-3.vod.tv.itc.cn/sohu/ifox/Lzk5LzI1Mi8iOJyyPTwssSSquySopbGYrBm6qDQjlzI2s5MyHpU/SHPlayer_3.28_18312.dmg",
+    "完美世界": "https://gamesvmg.wmupd.com/webops/10102.mp4",
+    "喜马拉雅": "https://s1.xmcdn.com/yx/xmly-live-release/last/dist/Ximalaya-Live-Setup-4.18.550.exe",
+    "CCTV": "https://dh5.cntv.myhwcdn.cn/asp/h5e/hls/1200/0303000a/3/default/ec48b9f8c76e49af842d4942914ad663/1.ts",
+    "锤子(手机)": "https://static.smartisanos.cn/common/video/production/ocean/os-1-1710.mp4",
+    "新浪": "http://i.apps.sina.cn/tqt/zip/com.sina.tianqitong_6.1892_2019.07.29.17.54.18.apk",
+    "搜狐": "https://714-3.vod.tv.itc.cn/sohu/ifox/Lzk5LzI1Mi8iOJyyPTwssSSquySopbGYrBm6qDQjlzI2s5MyHpU/SHPlayer_3.28_18312.dmg",
+    "AcFun": "https://cdn.aixifan.com/downloads/AcFun-acfunh5-release-6.62.0.1238_x64_60b608.apk",
+    "拼多多①": "https://dl.pddpic.com/android_dev/2021-02-08/4ff25ce6148aa99aeeba723b5891ae72.apk",
+    "拼多多②": "https://cd.pddpic.com/android_dev/2023-07-28/5c04772968aee57ca690fbe1e7f29467.apk",
+    "拼多多H5(js文件)": "https://static.pddpic.com/assets/js/react_pdd_50c6d8bdb252d256ae20_1026.js",
+    "拼多多H5(图像文件)": "https://funimg.pddpic.com/c3affbeb-9b31-4546-b2df-95b62de81639.png.slim.png",
+    "拼多多img(CDN)": "https://t00img.yangkeduo.com/chat/images/2022-12-12/79e0a4684de85c7b59f797819260be98.jpeg",
+    "斗鱼": "https://shark2.douyucdn.cn/front-publish/live-master/lib/vendor-room_4e3a873.js",
+    "Quark_Browser": "http://image.uc.cn/s/uae/g/2i/uninstallpg/Quark_Browser_unins.apk",
+    "七牛云": "https://kodo-toolbox.qiniu.com/kodo-browser-Linux-x64-v1.0.17.zip",
+    "鲜牛加速器(华为云CDN)": "https://picture.xianniu.com/pc/download/3.8.0.4/xianniusetup.3.8.0.4.exe",
+    "上海灵羊": "https://activity.hdslb.com/blackboard/static/20210604/4d40bc4f98f94fbc71c235832ce3efd4/hJEhL6jGOY.zip"
+  },
+  "海外系列": {
+    "Cloudflare①(海外)": "https://speed.cloudflare.com/__down?bytes=104857600",
+    "Cloudflare②(海外)": "https://speed.cloudflare.com/__down?bytes=524288000",
+    "Cloudflare③(海外)": "https://speed.cloudflare.com/__down?bytes=25000000",
+    "Cloudflare④(海外)": "https://speed.cloudflare.com/__down?bytes=1073741824",
+    "Cloudflare①(CDN)": "https://t1.geigei.gq",
+    "Cachefly 100MB(Trusted)": "https://cachefly.cachefly.net/100mb.test",
+    "Cachefly 200MB(Trusted)": "https://cachefly.cachefly.net/200mb.test",
+    "vultr(新加坡)": "https://sgp-ping.vultr.com/vultr.com.1000MB.bin",
+    "vultr(纽约)": "https://nj-us-ping.vultr.com/vultr.com.1000MB.bin",
+    "linode(日本东京市)": "https://speedtest.tokyo2.linode.com/100MB-tokyo2.bin",
+    "BBC中文网": "https://emp.bbci.co.uk/emp/dashjs/3.2.0-8/dash.all.min.js",
+    "GitHub文件加速(Cloudflare)": "https://gh.con.sh/https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z",
+	"Cachefly":"https://web1.cachefly.net/speedtest/downloading",
+	"Cloudflare Speed":"https://speed.cloudflare.com/__down?bytes=99614720",
+	"Steam Akamai":"https://cdn.akamai.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif",
+	"Steam Cloudflare":"https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/extras/NW_Sword_Sorcery_2.gif",
+	"Microsoft Akamai":"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW16Ptm"
 	}
 }
